@@ -7,9 +7,9 @@ shield = int(input())
 
 print("Health has been set.")
 
-newlives = lives * "♥"
-newenergy = energy * "♦"
-newshield = shield * "♦"
+newlives = "♥" * lives
+newenergy = "♦" * energy
+newshield = "♦" * shield
 
 print("Lives:  " + newlives)
 print("Energy: " + newenergy)
