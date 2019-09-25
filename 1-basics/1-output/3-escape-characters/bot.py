@@ -1,4 +1,5 @@
-# Display escape characters
+# Display escape / special characters
+print(" First line")
 print("\n Displays a new line")
 print("\t Displays a tab space")
 print("\\ Displays a back slash")
