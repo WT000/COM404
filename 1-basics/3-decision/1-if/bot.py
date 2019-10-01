@@ -1,5 +1,6 @@
+# Asking what type of book Beep has.
 print("What type of book is this?")
-book = str(input())
+book = input()
 if (book == "adventure"):
     print("I like adventure books!")
 
