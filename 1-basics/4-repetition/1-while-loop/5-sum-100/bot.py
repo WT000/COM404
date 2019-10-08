@@ -11,3 +11,13 @@ while (repeat < 100):
 
 # Total
 print("...Done! The answer is", total)
+
+#max_number = 100
+#number = 1
+#total = 0
+#while (number <= max_number)
+
+#total = total + number
+#number = number + 1
+
+#print("Total is", total)
