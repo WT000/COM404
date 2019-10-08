@@ -11,4 +11,4 @@ while (cables_avoided < max_live_cables):
     print("Done!", cables_avoided, "cables avoided.")
 
 # Avoiding complete
-print("\nAll live cables have been avoided.")
+print("All live cables have been avoided.")
