@@ -3,11 +3,11 @@ print("Please enter a number:")
 factorial = int(input())
 
 # Calculation
-number = 0
+loop = 0
 finalfactorial = 1
 
-while (number < factorial):
-    number = number + 1
-    finalfactorial = finalfactorial * number
+while (loop < factorial):
+    loop = loop + 1
+    finalfactorial = finalfactorial * loop
 
 print("The factorial is", finalfactorial)
