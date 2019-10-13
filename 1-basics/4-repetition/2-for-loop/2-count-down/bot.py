@@ -4,8 +4,7 @@ distance = int(input())
 
 # Step loop that minuses by 1
 for count in range (distance, 0, -1):
-    print(distance, "steps remaining")
-    distance = distance - 1
+    print(str(count) + " steps remaining")
 
 # End of loop
 print("We have reached the cave!")
