@@ -34,6 +34,7 @@ def run():
     print("What do you want to do with the word? \n1. Display in a Box \n2. Display Lower-case \n3. Display Upper-case \n4. Display Mirrored \n5. Repeat")
     op = int(input())
 
+# Various Function options
     if (op == 1):
         word_box(originalword)
 
