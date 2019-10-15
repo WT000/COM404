@@ -23,9 +23,8 @@ def mirror(originalword):
 def repeat(originalword):
     print("How many times should it be repeated?")
     repeat_value = int(input())
-    for count in range(0, repeat_value, 1):
-        print(originalword.lower() + " ", end="")
-        print(originalword.upper()+ " ", end="")
+    for count in range(0, repeat_value, 2):
+        print(originalword.lower() + " " + originalword.upper() + " ", end="")
 
 # Running Function
 def run():
