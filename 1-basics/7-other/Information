@@ -2,5 +2,9 @@ To import Python from another file it's best to use:
 from file import *
 e.g. from functions(.py) import *
 
+OR
+from functions import (function_name)
+function()
+
 Doing this transfers the functions, which could give extra marks in the TCA.
 It also makes the code easier to read.
