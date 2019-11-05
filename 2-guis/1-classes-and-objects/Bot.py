@@ -33,5 +33,5 @@ class Bot:
         return "name="+self.name, "age="+str(self.age), "energy="+str(self.energy), "shield="+str(self.shield)
 
 # Object of Bot
-robo = Bot("Robo", 15, 5, 4)
-robo.display_summary()
+# robo = Bot("Robo", 15, 5, 4)
+# robo.display_summary()
