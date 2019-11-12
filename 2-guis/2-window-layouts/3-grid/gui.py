@@ -10,7 +10,7 @@ class Gui(Tk):
         self.geometry("390x120")
         self.title("Newsletter")
 
-        # Add window components
+        # Add window components REMEMBER TO KEEP THESE IN ORDER OF APPERANCE
         self.__add_heading_label()
         self.__add_message_label()       
         self.__add_email_frame()  
