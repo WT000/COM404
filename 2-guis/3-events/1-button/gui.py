@@ -22,7 +22,8 @@ class Gui(Tk):
         self.header_label = Label()
         self.header_label.grid(row=0, column=0)
         self.header_label.configure(font="Arial 25",
-                                   text="Entrance Ticket")
+                                    text="Entrance Ticket",
+                                    bg="#eee")
 
     def __add_ticket_label(self):
         self.ticket_label = Label()
@@ -42,7 +43,8 @@ class Gui(Tk):
         #styles
         self.buy_button.configure(font="Arial 13",
                                   text="Buy",
-                                  width="10")
+                                  width="10",
+                                  bg="#fcc")
         #events
         self.buy_button.bind("<ButtonRelease-1>", self.__clicked_buy_button)
 
