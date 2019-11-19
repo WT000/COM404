@@ -1,5 +1,6 @@
-# Importing tkinter
+# Importing tkinter and message box
 from tkinter import *
+from tkinter import messagebox
 
 # Setting the GUI Class
 class Gui(Tk):
@@ -18,10 +19,8 @@ class Gui(Tk):
         self.__add_buy_button()
 
     def __add_header_label(self):
-        #create
         self.header_label = Label()
         self.header_label.grid(row=0, column=0)
-        #style
         self.header_label.configure(font="Arial 25",
                                    text="Entrance Ticket")
 
@@ -37,8 +36,20 @@ class Gui(Tk):
         self.ticket_entry.configure(width="30")
 
     def __add_buy_button(self):
+        #create
         self.buy_button = Button()
         self.buy_button.grid(row=3, column=0, pady=6)
+        #styles
         self.buy_button.configure(font="Arial 13",
                                   text="Buy",
                                   width="10")
+        #events
+        self.buy_button.bind("<ButtonRelease-1>", self.__clicked_buy_button)
+
+    def __clicked_buy_button(self, event):
+        if (int(self.ticket_entry.get()) == 1):
+            messagebox.showinfo("Complete!", "You have purchased 1 ticket!")
+        elif (int(self.ticket_entry.get()) >= 1):
+            messagebox.showinfo("Complete!", "You have purchased " + self.ticket_entry.get() + " tickets!")
+        else:
+            messagebox.showerror("ERROR", "You entered an invalid number of tickets.")
