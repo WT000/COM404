@@ -22,7 +22,7 @@ class Gui(Tk):
     def __add_heading_label(self):
         # create
         self.heading_label = Label()
-        self.heading_label.grid(row=0, column=0, columnspan=2)
+        self.heading_label.grid(row=0, column=0, columnspan=2) #sticky can keep it N, E, S or W
         # style
         self.heading_label.configure(font="Arial 20", 
                                      text="RECIEVE OUR NEWSLETTER")
