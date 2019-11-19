@@ -30,7 +30,8 @@ class Gui(Tk):
 
     def __add_email_frame(self):
         self.email_frame = Frame()
-        self.email_frame.pack(side=TOP)
+        self.email_frame.pack(side=TOP) #fill=x would go along the X axis
+        # padx = and pady = can pad
     
     def __add_email_label(self):
         self.email_label = Label(self.email_frame)
