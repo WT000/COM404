@@ -6,9 +6,9 @@ class Gui(Tk):
         super().__init__()
         
         # Load resources
-        self.correct_img = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/4-images/4-hiding-and-showing/correct.png")
-        self.incorrect_img = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/4-images/4-hiding-and-showing/incorrect.png")
-        self.invisible_img = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/4-images/4-hiding-and-showing/invisible.png")
+        self.correct_img = PhotoImage(file="U:/com404/COM404/2-guis/4-images/4-hiding-and-showing/correct.png")
+        self.incorrect_img = PhotoImage(file="U:/com404/COM404/2-guis/4-images/4-hiding-and-showing/incorrect.png")
+        self.invisible_img = PhotoImage(file="U:/com404/COM404/2-guis/4-images/4-hiding-and-showing/invisible.png")
         
         # Window attributes
         self.title("Hotel GUI")
