@@ -43,13 +43,13 @@ class Gui(Tk):
         # -----------------------------------------------------------
         if (self.__num_tick % 2 == 0):
         
-            if (self.redman_x_pos < 0):
-                self.redman_x_change = 1
-                self.redman_image_label.configure(image=self.redman_image)
-        
-            elif (self.redman_x_pos > 220):
+            if (self.redman_x_pos > 220):
                 self.redman_x_change = -1
                 self.redman_image_label.configure(image=self.redmanleft_image)
+            
+            elif (self.redman_x_pos < 0):
+                self.redman_x_change = 1
+                self.redman_image_label.configure(image=self.redman_image)
 
             self.redman_x_pos = self.redman_x_pos + self.redman_x_change
             self.redman_image_label.place(x=self.redman_x_pos)
@@ -58,13 +58,13 @@ class Gui(Tk):
         # -----------------------------------------------------------
         if (self.__num_tick % 4 == 0):
         
-            if (self.blueman_x_pos < 0):
-                self.blueman_x_change = 1
-                self.blueman_image_label.configure(image=self.blueman_image)
-        
-            elif (self.blueman_x_pos > 220):
+            if (self.blueman_x_pos > 220):
                 self.blueman_x_change = -1
                 self.blueman_image_label.configure(image=self.bluemanleft_image)
+            
+            elif (self.blueman_x_pos < 0):
+                self.blueman_x_change = 1
+                self.blueman_image_label.configure(image=self.blueman_image)
 
             self.blueman_x_pos = self.blueman_x_pos + self.blueman_x_change
             self.blueman_image_label.place(x=self.blueman_x_pos)
