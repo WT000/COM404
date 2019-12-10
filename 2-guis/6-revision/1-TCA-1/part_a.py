@@ -7,7 +7,7 @@ class Gui(Tk):
         super().__init__()
 
         # resources
-        self.default_image = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/6-revision/1-TCA-1/default.gif")
+        self.default_image = PhotoImage(file="U:/com404/COM404/2-guis/6-revision/1-TCA-1/default.gif")
         
         # set window properties
         self.title("Newsletter")

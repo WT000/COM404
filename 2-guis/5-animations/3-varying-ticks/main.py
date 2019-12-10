@@ -7,11 +7,11 @@ class Gui(Tk):
         super().__init__()
         
         # Load resources
-        self.redman_image = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/5-animations/3-varying-ticks/redman.gif")
-        self.redmanleft_image = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/5-animations/3-varying-ticks/redmanleft.gif")
+        self.redman_image = PhotoImage(file="U:/com404/COM404/2-guis/5-animations/3-varying-ticks/redman.gif")
+        self.redmanleft_image = PhotoImage(file="U:/com404/COM404/2-guis/5-animations/3-varying-ticks/redmanleft.gif")
 
-        self.blueman_image = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/5-animations/3-varying-ticks/blueman.gif")
-        self.bluemanleft_image = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/5-animations/3-varying-ticks/bluemanleft.gif")
+        self.blueman_image = PhotoImage(file="U:/com404/COM404/2-guis/5-animations/3-varying-ticks/blueman.gif")
+        self.bluemanleft_image = PhotoImage(file="U:/com404/COM404/2-guis/5-animations/3-varying-ticks/bluemanleft.gif")
         
         # Window attributes
         self.title("Walking Animation")

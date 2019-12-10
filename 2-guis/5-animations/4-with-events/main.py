@@ -6,7 +6,7 @@ class Gui(Tk):
         super().__init__()
         
         # Load resources
-        self.ufo_image = PhotoImage(file="C:/Users/Will/Desktop/COM404/COM404/2-guis/5-animations/4-with-events/UFO.gif")
+        self.ufo_image = PhotoImage(file="U:/com404/COM404/2-guis/5-animations/4-with-events/UFO.gif")
         
         # Window attributes
         self.title("UFO Animation")
