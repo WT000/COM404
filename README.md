@@ -1,2 +1,2 @@
-# COM404
+# ComputingWork
 Computing
